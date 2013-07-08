@@ -38,13 +38,13 @@ var cat = function(name, tiredness, hunger, loneliness, happiness){
 var catStat = function(cat, attribute){
 	console.log(cat.name + "'s " + attribute + " is: " + cat[attribute]);
 
-}
+};
 
 
 var peety = new cat("Peety", 20, 10, 0, 50);
 var christmas = new cat("Christmas", 0,40, 0, 40);
 
 catStat(peety, "tiredness");
-peety.sleep(10)
-catStat(peety, "tiredness")
+peety.sleep(10);
+catStat(peety, "tiredness");
 
